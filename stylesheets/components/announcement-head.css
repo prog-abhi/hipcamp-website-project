@@ -1,0 +1,17 @@
+.announcement-container {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 14.72px;
+    font-weight: 700;
+    font-family: Calibre, Helvetica, Arial sans-serif;
+    color: rgb(40, 64, 12);
+    background-color: rgb(234, 232, 228);
+}
+
+.announcement-container__wrapper__link {
+    border-bottom: 1px solid rgb(194, 194, 194);
+}

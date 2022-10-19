@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(243, 242, 239);
+    font-family: Calibre, Helvetica, Arial, Helvetica, sans-serif;
+}
