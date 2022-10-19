@@ -1,0 +1,33 @@
+.near-me-menu-container {
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    border: 1px solid black;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.near-me-menu-container__wrapper {
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    width: 1400px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(4, 25%);
+    row-gap: 30px;
+    justify-items: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    padding: 50px;
+    line-height: 2;
+    letter-spacing: 0;
+}
+
+.near-me-menu-container__wrapper__list li{
+    text-decoration: underline solid rgb(194, 194, 194) 2px;
+    vertical-align: baseline;
+}

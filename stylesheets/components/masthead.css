@@ -3,6 +3,7 @@
     justify-content: center;
     width: 100%;
     padding: 0 20px;
+    position: relative;
 }
 
 .masthead-container__wrapper {
