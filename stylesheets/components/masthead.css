@@ -4,6 +4,7 @@
     width: 100%;
     padding: 0 20px;
     position: relative;
+    box-sizing: border-box;
 }
 
 .masthead-container__wrapper {
