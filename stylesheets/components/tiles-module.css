@@ -348,13 +348,10 @@
 
 .container-5__sub-2 {
   position: relative;
-  /* z-index: -1; */
 }
 
 .container-5__sub-2 {
-  /* overflow: hidden; */
   border-radius: 24px;
-  /* height: 680px; */
 }
 
 .container-5__sub-2 > div {
@@ -479,4 +476,22 @@
 
 .container-6__label-container > h3 {
   margin: unset;
+}
+
+/* container 7 */
+.container-7 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 25px 0;
+}
+
+.container-7__link-container > ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
