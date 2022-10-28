@@ -109,7 +109,6 @@
   color: rgb(154, 157, 40);
 }
 
-
 /* container 2 */
 .container-2 {
   box-sizing: border-box;
@@ -157,7 +156,6 @@
   margin-top: 12px;
 }
 
-
 .container-2__learn-more-anchor {
   color: rgb(216, 70, 39);
   font-weight: 500;
@@ -168,7 +166,6 @@
   display: inline-block;
   margin-top: 26px;
 }
-
 
 /* container-3 */
 
@@ -252,4 +249,89 @@
 
 .label-3 {
   background-color: rgb(228, 189, 158);
+}
+
+/* container 4 */
+.container-4 {
+  margin: 100px 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.container-4__heading-container {
+  margin-bottom: 40px;
+}
+
+.container-4__cards-container {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
+.container-4__card {
+  height: 364px;
+  border-radius: 24px;
+  overflow: hidden;
+  transform: translateY(5px);
+  transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+}
+
+.container-4__card:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 40%) 0 2px 4px 0;
+}
+
+.container-4__card-wrapper {
+  position: relative;
+}
+
+.container-4__button-container {
+  color: rgb(247, 247, 247);
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.container-4__button-container > div {
+  max-width: 75%;
+  flex-basis: 75%;
+  flex-grow: 0;
+  padding-top: 16px;
+  padding-bottom: 18px;
+  border-radius: 42px;
+  box-shadow: rgba(0, 0, 0, 40%) 0 3px 6px 0;
+  position: relative;
+  top: -110px;
+  z-index: 1;
+}
+
+
+.container-4__button-1 > div {
+  background-color: rgb(177, 134, 103);
+}
+
+.container-4__button-2 > div {
+  background-color: rgb(23, 128, 125);
+}
+
+.container-4__button-3 > div {
+  background-color: rgb(128, 128, 99);
+}
+
+.container-4__button-4 > div {
+  background-color: rgb(151, 163, 162);
+}
+
+.container-4__button-5 > div {
+  background-color: rgb(175, 195, 90);
+}
+
+.container-4__button-6 > div {
+  background-color: rgb(192, 165, 131);
 }
