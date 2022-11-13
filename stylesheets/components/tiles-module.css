@@ -201,10 +201,15 @@
   flex-basis: 33.333%;
 }
 
+.container-3__card:hover {
+  transform: translateY(-5px);
+}
+
 .container-3__card {
   height: 648px;
   padding: 12px;
   position: relative;
+  transition: transform 0.2s ease-in-out 0s;
 }
 
 .container-3__card img {
