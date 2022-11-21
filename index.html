@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/222be1da46.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/scripts/index.js" type="module"></script>
     <title>
       Hipcamp | Outdoor Stays: Tent Camping, RV Parks, Cabins & Glamping
     </title>
@@ -54,8 +55,8 @@
         </div>
         <nav class="masthead-container__nav-list-wrapper">
           <ul>
-            <li class="to-underline">Near Me</li>
-            <li class="to-underline">About</li>
+            <li class="to-underline" id="near-me-button">Near Me</li>
+            <li class="to-underline" id="about-button">About</li>
             <li class="to-underline">Earn Hipcash</li>
             <li class="to-underline">Start hosting</li>
             <li class="to-underline">Log in</li>
@@ -72,20 +73,20 @@
       </div>
     </div>
 
-    <div class="near-me-menu-container">
+    <div class="near-me-menu-container hide" id="near-me-menu">
       <div class="near-me-menu-container__wrapper">
         <!-- headings -->
         <div>
-          <h2>Best camping near me</h2>
+          <span>Best camping near me</span>
         </div>
         <div>
-          <h2>Most popular camping states</h2>
+          <span>Most popular camping states</span>
         </div>
         <div>
-          <h2>Most popular camping cities</h2>
+          <span>Most popular camping cities</span>
         </div>
         <div>
-          <h2>Top searched National Parks</h2>
+          <span>Top searched National Parks</span>
         </div>
 
         <!-- list -->
@@ -319,7 +320,7 @@
       </div>
     </div>
 
-    <div class="about-us-menu-container">
+    <div class="about-us-menu-container hide" id="about-menu">
       <ul class="about-us-menu-container__list">
         <li>
           <a

@@ -2,16 +2,14 @@
     width: 100%;
     box-sizing: border-box;
     height: fit-content;
-    border: 1px solid black;
-    visibility: hidden;
     position: absolute;
-    z-index: -1;
+    z-index: 9999;
+    background-color: inherit;
 }
 
 .near-me-menu-container__wrapper {
     margin: 0 auto;
     box-sizing: border-box;
-    /* border: 1px solid black; */
     width: 1400px;
     display: grid;
     grid-template-rows: auto auto;
@@ -30,4 +28,12 @@
 .near-me-menu-container__wrapper__list li{
     text-decoration: underline solid rgb(194, 194, 194) 2px;
     vertical-align: baseline;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hide {
+    visibility: hidden;
 }
